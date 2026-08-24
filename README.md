@@ -1,16 +1,20 @@
-## Hi there 👋
-
-<!--
-**Jeison117/Jeison117** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@              usuario@github   
+@@@@@@@@@@@@@@@@@&&&&&&&&&@@@@@@@@@@@@@@@@@@@              ----------------------------------------------------------------------
+@@@@@@@@@@@@@@&@&&&&&&@&@@&&@&&&@@@@@@@@@@@@@              . OS: ............................. Windows 11
+@@@@@@@@@@@@@&&%***********//#&&&@@@@@@@@@@@@              . Uptime: ......................... 27 Years Old
+@@@@@@@@@@@&##/**,,,,*******//((&&@@@@@@@@@@@              . Role: ........................... Systems Engineering
+@@@@@@@@@@@%(/***,,,,*******///(#%@@@@@@@@@@@              . Focus: .......................... AI Agents, LLMs & Autonomous Systems
+@@@@@@@@@@@%(**((%#(/****/#%%##((%@@@@@@@@@@@              . IDE: ............................ Google Antigravity, Claude Code, Gemini, OpenCode
+@@@@@@@@@@@#(**(&&%#(***((#%&&(//%@@@@@@@@@@@
+@@@@@@@@@*******,*******/////*///(//@@@@@@@@@              . Languages.Programming: .......... TypeScrpt, JavaScript, TypeScript, Python
+@@@@@@@@@*****,,,,**,*,,///*****/((/@@@@@@@@@              . Frameworks.AI: .................. React, Next.Js
+@@@@@@@@@/**/***,*******/(////**/(//@@@@@@@@@              . Tools & DevOps: ................. Git, GitHub, Vercel, Supabase,
+@@@@@@@@@@@@/******//#((((##/////#@@@@@@@@@@@
+@@@@@@@@@@@@@***********////////(@@@@@@@@@@@@              - Contact
+@@@@@@@@@@@@@@/************////(@@@@@@@@@@@@@              . Email: .......................... 
+@@@@@@@@@@@@@@(***//((((((((//((@@@@@@@@@@@@@              . LinkedIn: ....................... www.linkedin.com/in/jason-castillo-b63028330
+@@@@@@@@@@@@@@.*********///////(/@@@@@@@@@@@@              . Portfolio/Web: .................. 
+@@@@@@@@@@(....&/**,,*****////(#/,,*@@@@@@@@@
+@@@@@,....  ...*%(/*****//*/((/#.,,,,,,,,&@@@              - GitHub Stats
+................%((/*******/((/,.,,,,,,.....,              . Focus Area: ..................... Multi-Agent Systems & Intelligent Apps
+  ...,..  ..  ,/.,(/**********./,,,,,..,,.,..              . Current Status: ................. Building & experimenting with AI models
