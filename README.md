@@ -7,7 +7,7 @@
 @@@@@@@@@@@%(/***,,,,*******///(#%@@@@@@@@@@@              . Focus: .......................... AI Agents, LLMs & Autonomous Systems
 @@@@@@@@@@@%(**((%#(/****/#%%##((%@@@@@@@@@@@              . IDE: ............................ Google Antigravity, Claude Code, Gemini, OpenCode
 @@@@@@@@@@@#(**(&&%#(***((#%&&(//%@@@@@@@@@@@
-@@@@@@@@@*******,*******/////*///(//@@@@@@@@@              . Languages.Programming: .......... TypeScrpt, JavaScript, TypeScript, Python
+@@@@@@@@@*******,*******/////*///(//@@@@@@@@@              . Languages.Programming: .......... JavaScript, TypeScript, Python
 @@@@@@@@@*****,,,,**,*,,///*****/((/@@@@@@@@@              . Frameworks.AI: .................. React, Next.Js
 @@@@@@@@@/**/***,*******/(////**/(//@@@@@@@@@              . Tools & DevOps: ................. Git, GitHub, Vercel, Supabase,
 @@@@@@@@@@@@/******//#((((##/////#@@@@@@@@@@@
