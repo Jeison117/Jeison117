@@ -18,12 +18,3 @@
     <img src="./assets/stack-light.svg" width="840" alt="Toolkit: Python, TypeScript, JavaScript, React, Next.js, GitHub, Vercel, Supabase, Cloudflare, Firebase" />
   </picture>
 </p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/jason-castillo-b63028330">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/connect-dark.svg" />
-      <img src="./assets/connect-light.svg" width="840" alt="Connect with Jason Castillo on LinkedIn" />
-    </picture>
-  </a>
-</p>
