@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="72" viewBox="0 0 840 72" fill="none">
   <rect x="0.5" y="0.5" width="839" height="71" rx="11.5" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="1" />
+  <rect x="26" y="0" width="32" height="2" fill="#0891B2" />
 
-  <text x="26" y="27" fill="#71717A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="600" letter-spacing="1.2">04 · CONNECT</text>
+  <rect x="26" y="18" width="2" height="10" rx="1" fill="#0891B2" />
+  <text x="34" y="27" fill="#71717A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="600" letter-spacing="1.2">04 · CONNECT</text>
   <text x="26" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
     <tspan fill="#09090B">LinkedIn</tspan>
-    <tspan fill="#FF4D00">  —  </tspan>
+    <tspan fill="#0891B2">  —  </tspan>
     <tspan fill="#52525B" font-weight="400">Let's build something sharp</tspan>
   </text>
 
@@ -12,7 +14,7 @@
   <text x="712" y="40" text-anchor="end" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="600" letter-spacing="1">BUILD // 117</text>
 
   <!-- Kinetic Action Pill -->
-  <rect x="728" y="19" width="86" height="34" rx="7" fill="#FF4D00" />
+  <rect x="728" y="19" width="86" height="34" rx="7" fill="#0891B2" />
   <text x="752" y="40" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="0.8">IN</text>
 
   <!-- Sequential Chevrons -->

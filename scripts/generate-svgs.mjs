@@ -21,8 +21,9 @@ const THEMES = {
     inkSecondary: "#52525B",
     inkMuted: "#71717A",
     inkFaint: "#A1A1AA",
-    accent: "#FF4D00",
-    accentSoft: "#FFF0E8",
+    accent: "#0891B2",
+    accentSoft: "#ECFEFF",
+    accentHairline: "#A5F3FC",
     accentInk: "#FFFFFF",
     dotGrid: "#E0E0E5",
     visorBg: "#111113",
@@ -39,9 +40,10 @@ const THEMES = {
     inkSecondary: "#A1A1AA",
     inkMuted: "#8E8E98",
     inkFaint: "#52525B",
-    accent: "#FF5C1A",
-    accentSoft: "#28150C",
-    accentInk: "#FFFFFF",
+    accent: "#22D3EE",
+    accentSoft: "#0C2A33",
+    accentHairline: "#155E75",
+    accentInk: "#09090B",
     dotGrid: "#222227",
     visorBg: "#09090B",
     visorBorder: "#3F3F46",
@@ -67,6 +69,7 @@ function renderHero(t, mode) {
 
   <g clip-path="url(#${clipId})">
     <rect width="${w}" height="${h}" rx="12" fill="${t.cardBg}" />
+    <rect x="36" y="0" width="32" height="2" fill="${t.accent}" />
 
     <!-- Left Column: Identity -->
     <rect x="36" y="34" width="7" height="7" rx="1.5" fill="${t.accent}" />
@@ -80,7 +83,7 @@ function renderHero(t, mode) {
     <text x="36" y="134" font-family="${FONT_SANS}" font-size="15" font-weight="500">
       <tspan fill="${t.ink}" font-weight="600">AI Systems Engineer</tspan>
       <tspan fill="${t.accent}" font-weight="700">  ·  </tspan>
-      <tspan fill="${t.inkSecondary}">Building agents that (mostly) behave.</tspan>
+      <tspan fill="${t.inkSecondary}">Automation Lover</tspan>
     </text>
 
     <!-- Bottom Hairline & Tabular Metadata -->
@@ -97,6 +100,11 @@ function renderHero(t, mode) {
     <!-- Right Column: Unit-117 Kinetic Viewport -->
     <rect x="548.5" y="22.5" width="259" height="171" rx="9" fill="${t.wellBg}" stroke="${t.border}" stroke-width="1" />
     <rect x="556" y="30" width="244" height="156" rx="6" fill="url(#${dotId})" />
+    <!-- Subtle Cyan Corner Reticles -->
+    <path d="M548.5 34V28.5C548.5 25.2 551.2 22.5 554.5 22.5H560" stroke="${t.accentHairline}" stroke-width="1.2" fill="none" />
+    <path d="M796 22.5H801.5C804.8 22.5 807.5 25.2 807.5 28.5V34" stroke="${t.accentHairline}" stroke-width="1.2" fill="none" />
+    <path d="M548.5 182V187.5C548.5 190.8 551.2 193.5 554.5 193.5H560" stroke="${t.accentHairline}" stroke-width="1.2" fill="none" />
+    <path d="M796 193.5H801.5C804.8 193.5 807.5 190.8 807.5 187.5V182" stroke="${t.accentHairline}" stroke-width="1.2" fill="none" />
 
     <!-- Viewport Corner Ticks & Labels -->
     <text x="564" y="42" fill="${t.inkFaint}" font-family="${FONT_MONO}" font-size="9.5" font-weight="600" letter-spacing="1">UNIT-117</text>
@@ -229,8 +237,10 @@ function renderBento(t, mode) {
   <!-- LEFT CARD: 01 CURRENT LOOP -->
   <g>
     <rect x="0.5" y="0.5" width="${cw - 1}" height="${h - 1}" rx="11.5" fill="${t.cardBg}" stroke="${t.border}" stroke-width="1" />
+    <rect x="26" y="0" width="28" height="2" fill="${t.accent}" />
 
-    <text x="26" y="34" fill="${t.inkMuted}" font-family="${FONT_MONO}" font-size="10.5" font-weight="600" letter-spacing="1.2">01 · CURRENT LOOP</text>
+    <rect x="26" y="25" width="2" height="10" rx="1" fill="${t.accent}" />
+    <text x="34" y="34" fill="${t.inkMuted}" font-family="${FONT_MONO}" font-size="10.5" font-weight="600" letter-spacing="1.2">01 · CURRENT LOOP</text>
     <rect x="330" y="21" width="56" height="20" rx="4" fill="${t.accentSoft}" />
     <text x="358" y="34.5" text-anchor="middle" fill="${t.accent}" font-family="${FONT_MONO}" font-size="9.5" font-weight="700" letter-spacing="0.8">ACTIVE</text>
 
@@ -253,11 +263,13 @@ function renderBento(t, mode) {
   <!-- RIGHT CARD: 02 WORKBENCH -->
   <g transform="translate(${rx}, 0)">
     <rect x="0.5" y="0.5" width="${cw - 1}" height="${h - 1}" rx="11.5" fill="${t.cardBg}" stroke="${t.border}" stroke-width="1" />
+    <rect x="26" y="0" width="28" height="2" fill="${t.accent}" />
 
-    <text x="26" y="34" fill="${t.inkMuted}" font-family="${FONT_MONO}" font-size="10.5" font-weight="600" letter-spacing="1.2">02 · WORKBENCH</text>
+    <rect x="26" y="25" width="2" height="10" rx="1" fill="${t.accent}" />
+    <text x="34" y="34" fill="${t.inkMuted}" font-family="${FONT_MONO}" font-size="10.5" font-weight="600" letter-spacing="1.2">02 · WORKBENCH</text>
 
     <!-- Mini Ping-Pong Court (Top-Right) -->
-    <rect x="${cx + 0.5}" y="${cy + 0.5}" width="${cwCourt}" height="${chCourt}" rx="6" fill="${t.wellBg}" stroke="${t.border}" stroke-width="1" />
+    <rect x="${cx + 0.5}" y="${cy + 0.5}" width="${cwCourt}" height="${chCourt}" rx="6" fill="${t.wellBg}" stroke="${t.accentHairline}" stroke-width="1" />
     <line x1="${cx + cwCourt / 2}" y1="${cy + 5}" x2="${cx + cwCourt / 2}" y2="${cy + chCourt - 4}" stroke="${t.borderStrong}" stroke-width="1" stroke-dasharray="2 3" />
 
     <!-- Left Paddle -->
@@ -443,9 +455,11 @@ function renderStack(t, mode) {
   </defs>
 
   <rect x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="11.5" fill="${t.cardBg}" stroke="${t.border}" stroke-width="1" />
+  <rect x="26" y="0" width="32" height="2" fill="${t.accent}" />
 
   <!-- Header -->
-  <text x="26" y="32" fill="${t.inkMuted}" font-family="${FONT_MONO}" font-size="10.5" font-weight="600" letter-spacing="1.2">03 · TOOLKIT</text>
+  <rect x="26" y="23" width="2" height="10" rx="1" fill="${t.accent}" />
+  <text x="34" y="32" fill="${t.inkMuted}" font-family="${FONT_MONO}" font-size="10.5" font-weight="600" letter-spacing="1.2">03 · TOOLKIT</text>
   <text x="774" y="32" text-anchor="end" fill="${t.inkFaint}" font-family="${FONT_MONO}" font-size="10" font-weight="600" letter-spacing="1">10 CORE TOOLS</text>
 
   <!-- Mini Equalizer Bars -->
@@ -480,8 +494,10 @@ function renderConnect(t) {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" fill="none">
   <rect x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="11.5" fill="${t.cardBg}" stroke="${t.border}" stroke-width="1" />
+  <rect x="26" y="0" width="32" height="2" fill="${t.accent}" />
 
-  <text x="26" y="27" fill="${t.inkMuted}" font-family="${FONT_MONO}" font-size="10" font-weight="600" letter-spacing="1.2">04 · CONNECT</text>
+  <rect x="26" y="18" width="2" height="10" rx="1" fill="${t.accent}" />
+  <text x="34" y="27" fill="${t.inkMuted}" font-family="${FONT_MONO}" font-size="10" font-weight="600" letter-spacing="1.2">04 · CONNECT</text>
   <text x="26" y="50" font-family="${FONT_SANS}" font-size="15" font-weight="600">
     <tspan fill="${t.ink}">LinkedIn</tspan>
     <tspan fill="${t.accent}">  —  </tspan>
